@@ -1,4 +1,3 @@
 # jsGame
 game from "Eloquent JavaScript"
-
-https://moskitol89.github.io/jsGame/
+Try to collect all coins: https://moskitol89.github.io/jsGame/ 
