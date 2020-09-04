@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="game.css" type="text/css"/>
+</head>
+<body>
+<!--<tab-panel>-->
+<!--    <div data-tabname="one">Tab one</div>-->
+<!--    <div data-tabname="two">Tab two</div>-->
+<!--    <div data-tabname="three">Tab three</div>-->
+<!--    <div data-tabname="four">Tab four</div>-->
+<!--</tab-panel>-->
+<!--<script>-->
+<!--    function asTabs(node) {-->
+<!--        // Your code here.-->
+<!--        let tabs = document.querySelectorAll("tab-panel div[data-tabname]");-->
+<!--        console.log(`tabs length : ${tabs.length}`);-->
+<!--        let buttonClicked = -1;-->
+<!--        for (let i = 0; i < tabs.length; i++) {-->
+<!--            let button = document.createElement("button");-->
+<!--            button.style.height = "50px";-->
+<!--            button.style.width = "100px";-->
+<!--            button.innerHTML = tabs[i].getAttribute("data-tabname");-->
+<!--            node.insertBefore(button, tabs[0]);-->
+<!--            tabs[i].style.display = "none";-->
+<!--            button.addEventListener("click", () => {-->
+<!--                if (buttonClicked !== -1) {-->
+<!--                    tabs[buttonClicked].style.display = "none";-->
+<!--                    buttons[buttonClicked].style.backgroundColor = "";-->
+<!--                }-->
+<!--                buttonClicked = i;-->
+<!--                tabs[i].style.display = "block";-->
+<!--                buttons[i].style.backgroundColor = "red";-->
+
+<!--            });-->
+<!--        }-->
+<!--        let buttons = document.querySelectorAll("tab-panel button");-->
+<!--        console.log(`button length : ${buttons.length}`);-->
+
+<!--    }-->
+
+<!--    asTabs(document.querySelector("tab-panel"));-->
+<!--</script>-->
+<script src="game.js"></script>
+<script src="levels.js"></script>
+<script>
+    runGame(GAME_LEVELS, CanvasDisplay);
+</script>
+
+</body>
+</html>
